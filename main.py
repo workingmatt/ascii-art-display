@@ -11,7 +11,10 @@ frameoffset = 0
 with open('data.csv','r') as data_file:
 	data_reader = csv.reader(data_file)
 	for row in data_reader: datasheet.append(row)
+
 	ds_width,ds_height = len(datasheet[0]),len(datasheet)
+
+# Start main loop
 
 while True:
 	output = []

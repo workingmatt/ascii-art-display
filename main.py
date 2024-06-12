@@ -8,7 +8,7 @@ bold,unbold = "\033[1m\033[33m","\033[0m\033[34m"
 datasheet = []
 frameoffset = 0
 
-with open('data.csv','r') as data_file:
+with open('/home/pi/Documents/ASCII-art-display/data.csv','r') as data_file:
 	data_reader = csv.reader(data_file)
 	for row in data_reader: datasheet.append(row)
 
